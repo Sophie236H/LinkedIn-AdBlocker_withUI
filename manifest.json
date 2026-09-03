@@ -1,16 +1,18 @@
 {
     "manifest_version": 3,
     "name": "LinkedIn AdBlocker",
-    "description": "Blocking ads.",
+    "description": "Blocking LinkedIn ads.",
     "version": "0.0.1",
     "author": "Sophie Holland",
     "action": {
-    "default_title": "LinkedIn AdBlocker"
+    "default_title": "LinkedIn AdBlocker",
+    "default_popup": "popup.html"
 },
     "permissions": [
         "tabs",
         "webNavigation",
-        "scripting"
+        "scripting",
+        "storage"
     ],
     "host_permissions": [
         "https://www.linkedin.com/*"

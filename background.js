@@ -32,7 +32,7 @@ chrome.webNavigation.onCommitted.addListener(function(tab) {
                     return;
                     //if the domain is non existant then it going to catch an error
                 } else if (domain == "linkedin.com") {
-                    //if domain is not linkedin then it will go to that catch block
+                    //if domain is not linkedin or youtube then it will go to that catch block
                     //otherwise it is going to run the function
                     runLinkedinScript();
                     return;
